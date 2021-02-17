@@ -1,0 +1,39 @@
+.gameCard {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-right: 10rem;   
+}
+.gameCard img {
+    max-width: 100%;
+    height: auto;
+}
+.gameCard .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.gameCard h1 {
+    text-align: initial;
+}
+
+.gameCard p {
+    text-align: initial;
+    text-overflow:ellipsis;
+}
+
+@media only screen 
+   and (max-width : 768px) {
+    .gameCard {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .gameCard .info {
+        margin-left: 1rem;
+    }
+}
