@@ -19,6 +19,37 @@ export default createGlobalStyle`
     justify-content: center;
     flex-direction: column;
   }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .logo {
+    margin-left: 2rem;
+  }
+
+  
+  @media (min-width: 769px) {
+    .header,
+    .main-nav {
+      display: flex;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+  }
+
 `
 
 export const InsertGame = styled.div`

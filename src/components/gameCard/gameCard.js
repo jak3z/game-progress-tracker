@@ -2,7 +2,8 @@ import React from 'react'
 import { GameCardDiv } from './style.js'
 
 export default function GameCard(props) {
-    let gameInfo = props.data.gameInfo
+    let gameInfo = props.gameInfo.gameInfo
+    console.log(gameInfo)
     let imageUrl = `https://images.igdb.com/igdb/image/upload/t_cover_big/${gameInfo.image_id}.jpg`
     return (
         <GameCardDiv>
