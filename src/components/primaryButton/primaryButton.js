@@ -1,10 +1,10 @@
 import React from 'react'
-import './style.css'
+import { ButtonPrimary } from './style.js'
 
 export default function PrimaryButton(props) {
     return (
         <div>
-            <button className="primaryButton">{props.text}</button>
+            <ButtonPrimary>{props.text}</ButtonPrimary>
         </div>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import './style.css'
+import { InputGame } from './style.js'
 
 export default function GameInput(props) {
     return (
         <div>
-          <input className="gameInput" type={props.type} placeholder={props.placeholder}></input>  
+          <InputGame type={props.type} placeholder={props.placeholder}></InputGame>  
         </div>
     )
 }
