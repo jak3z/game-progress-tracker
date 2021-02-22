@@ -1,4 +1,6 @@
-.primaryButton {
+import styled from 'styled-components'
+
+export const ButtonPrimary = styled.button`
     background-color: #4851f6;
     outline: 0;
     border: none;
@@ -9,8 +11,8 @@
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     transition: background-color 0.3s;
-}
 
-.primaryButton:hover {
-    background-color: #1d28fc;
-}
+    :hover {
+        background-color: #1d28fc;
+    }
+`
